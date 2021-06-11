@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://ssl.gstatic.com/finance/images/landingpage4.svg");
+  background-repeat: no-repeat;
+}
+.quotes__wrapper { 
+  margin-top: 100px;
+  font-family: "Poppins";
+  width: 60%;
+}
+
+.quote__wrapper { 
+  display: flex;
+  margin: 25px 0px;
+  width: 100%;
+}
+
+.quote__wrapper div { 
+  transition: 0.5s;
+  width: 20%;
+}
+.quote__wrapper { 
+  padding: 15px 0px;
+  align-items: center;
+}
+.quote__change { 
+  flex: 0 0 150px;
+}
+
+.quote__change_percent img { 
+  height: 25px;
+  width: 25px;
+}
+
+.quote__ticker { 
+  text-align: center;
+  width: 80px !important;
+  padding: 3px 0px;
+  margin-left:25%;
+  background-color: rgb(7, 1, 1);
+  border-radius: 10px;
+  color: white;
+}
+.quote__change_percent { 
+  text-align: center;
+}
+
+.Apple { 
+  background-color: #666666;
+}
+.Google { 
+  background-color: rgb(237, 22, 30);
+}
+
+.Microsoft { 
+  background-color: rgb(115, 115, 115);
+}
+.Amazon { 
+  background-color: rgb(194, 108, 3);
+}
+.FaceBook { 
+  background-color:  rgb(66, 103, 178);
+}
+.Tesla{ 
+  background-color: rgb(227, 25, 55);
+}
